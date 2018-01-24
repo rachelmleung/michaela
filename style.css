@@ -1,0 +1,98 @@
+/*
+ Theme Name:   michaela Theme Child
+ Theme URI:    http://example.com/michaela-theme-child/
+ Description:  michaela Child Theme - michaela
+ Author:       Your Name!
+ Author URI:   http://example.com
+ Template:     michaela-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  michaela-theme-child
+*/
+
+ 	
+@import url("../michaela-theme/style.css");
+
+
+
+/* =========== MOBILE MOBILE MOBILE ============== */
+/* =========== MOBILE MOBILE MOBILE ============== */
+/* =========== MOBILE MOBILE MOBILE ============== */
+
+
+/* =========== HOME PAGE - MOBILE ============== */
+.home-page {
+margin: 0;
+}
+.about-preview {
+    background:#cde0e1;
+    padding: 15% 0 15% 0;
+}
+
+.feature-text{
+    display:flex;
+    justify-content: space-around;
+}
+.feature-text h1 {
+    font-size: 1.2em;
+    width:92%;
+    margin: 0 0 2% 0;
+    color:#333;
+    
+}
+
+.home-ctas {
+    margin: 0 auto;
+    padding: 15% 0 15% 0;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.home-ctas .button {
+    width:92%;
+
+}
+
+.about-cta .button{
+    background:#238c98;
+    margin: 0 auto;
+    display: block;
+}
+
+.services-cta .button{
+    background: #ffc414;
+
+    margin: 0 auto;
+    display: block;
+}
+.services-cta a.button{
+    color: #333;
+}
+
+
+.site-footer {
+    border-top:none;
+}
+
+/* =========== DESKTOP ============== */
+
+@media (min-width: 767px){
+.home-ctas {
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-around;
+    background:blue;
+    width:40%;
+}
+
+.home-ctas .button {
+    
+}
+
+.about-cta .button{
+    background: red;
+}.about-cta .button{
+    background: red;
+}
+} /* desktop styles */
