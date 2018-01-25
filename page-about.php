@@ -31,9 +31,10 @@ get_header(); ?>
                 $training = get_field('training');
                 $study = get_field('study');
                 $about_bottom = get_field('about_bottom');
+                $size = "full";
             ?>
         			<?php endwhile; // end of the loop. ?>
-            
+        <div class="about-page"> 
            <div class="about_image">
                 <figure>
                 <?php echo wp_get_attachment_image($about_image, $size); ?>
@@ -78,8 +79,8 @@ get_header(); ?>
             </div>
 
         </div>
-        
-		</div><!-- .main-content -->
+        </div> <!--about page -->
+        </div><!-- .main-content -->
 
 
 	</div><!-- #primary -->

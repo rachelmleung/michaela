@@ -20,6 +20,10 @@
 /* =========== MOBILE MOBILE MOBILE ============== */
 
 
+/*this resets width on all pages*/
+#primary{
+    width:100%;
+}
 /* =========== HOME PAGE - MOBILE ============== */
 .hero-content {
 margin: 0;
@@ -61,6 +65,8 @@ margin: 0;
     z-index: 2;
     position: relative;
     color: #333;
+    width:92%;
+    margin: 0 auto;
 } 
 
 .about-preview {
@@ -110,6 +116,62 @@ margin: 0;
 }
 
 
+/*================ ABOUT PAGE - MOBILE ============ */
+.about-page {
+
+}
+.about-image {
+    
+}
+
+.about-top {
+    width:90%;
+    margin: 0 auto; 
+    padding: 0 0 5% 0;
+}
+.about-top h1,h4 {
+    margin:0;
+}
+
+.about-main {
+    padding: 10% 0 10% 0;
+    background: #cde0e1;   
+}
+.about-main p{
+    width:90%;
+    margin: 0 auto;
+    line-height: 1.8em;
+}
+
+
+.experience {
+    width:90%;
+    margin: 0 auto;
+    
+}
+
+.training-edu {
+    width:90%;
+    margin: 0 auto;
+}
+
+.about-bottom{
+    padding: 10% 0 10% 0;
+    background: #cde0e1;   
+}
+.about-bottom p {
+    width:90%;
+    margin: 0 auto;
+}
+.about-bottom-cta {
+    display:flex;
+    justify-content: space-around;
+    margin: 5% 0 0 0;
+}
+
+.about-bottom-cta .button {
+    
+}
 .site-footer {
     border-top:none;
 }
@@ -117,21 +179,5 @@ margin: 0;
 /* =========== DESKTOP ============== */
 
 @media (min-width: 767px){
-.home-ctas {
-    margin: 0 auto;
-    display:flex;
-    justify-content: space-around;
-    background:blue;
-    width:40%;
-}
 
-.home-ctas .button {
-    
-}
-
-.about-cta .button{
-    background: red;
-}.about-cta .button{
-    background: red;
-}
 } /* desktop styles */
