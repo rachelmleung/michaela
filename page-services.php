@@ -45,11 +45,12 @@ get_header(); ?>
             
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
-
-        <div class="main-services">
+        <div class="services-page">
+            <div class="main-services">
             <div class="services-body">
-                <p><?php echo $services_intro; ?></p>
-                
+                <div class="services-intro">
+                    <h3><?php echo $services_intro; ?></h3>
+               </div> 
                 
                 <div class="services">
                     <div class="service-1">
@@ -91,10 +92,14 @@ get_header(); ?>
                     <h4><?php echo $personal; ?></h4>
                     <p><?php echo $personal_info; ?></p>
                 </div>
-
+                
+                <div class="services-bottom-cta">
+                    <a class="button" href="<?php echo site_url('/contact/') ?>">Book an Appointment! </a>
+                </div>
             </div>
             </div> <!-- end services body -->
         </div>
+        </div> <!-- close services page -->
 	</div><!-- #primary -->
 
 <?php get_footer(); ?>

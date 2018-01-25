@@ -55,27 +55,29 @@ get_header(); ?>
             
         <div class="training-edu">
             <h3><?php echo $edu; ?></h3>
+
+            <div class="yoga">
+                <h4><?php echo $hours; ?></h4>
+                <p><?php echo $studio; ?></p>
+            </div>
+            
+            <div class="cpt">
+                <h4><?php echo $study; ?></h4>
+                <p><?php echo $training; ?></p>
+            </div>
+            
             <div class="school">
                 <h4><?php echo $degree; ?></h4>
                 <p><?php echo $school; ?></p>
             </div>
             
-            <div class="cpt">
-                <h4><?php echo $studio; ?></h4>
-                <p><?php echo $hours; ?></p>
-            </div>
-            
-            <div class="yoga">
-                <h4><?php echo $training; ?></h4>
-                <p><?php echo $study; ?></p>
-            </div>
   
         </div> <!-- end training edu -->
             
         <div class="about-bottom">
             <p><?php echo $about_bottom; ?> </p> 
             <div class="about-bottom-cta">
-                 <a class="button" href="<?php echo site_url('/about/') ?>">View My Services</a>
+                 <a class="button" href="<?php echo site_url('/services/') ?>">View My Services</a>
             </div>
 
         </div>

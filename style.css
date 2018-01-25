@@ -23,12 +23,31 @@
 /*this resets width on all pages*/
 #primary{
     width:100%;
+    
 }
+
+
+.button:hover {
+    
+    	   -webkit-transition: all 0.5s ease;	/* so it will ease back out */
+	   -moz-transition: all 0.5s ease;
+	   -o-transition: all 0.5s ease;
+	   transition: all 0.5s ease;
+}
+
+.a:hover {
+    	   -webkit-transition: all 0.5s ease;	/* so it will ease back out */
+	   -moz-transition: all 0.5s ease;
+	   -o-transition: all 0.5s ease;
+	   transition: all 0.5s ease;
+} 
+}
+
 /* =========== HOME PAGE - MOBILE ============== */
 .hero-content {
 margin: 0;
-
 }
+
 .home-page {
     position: relative;
     background: #cde0e1;
@@ -72,6 +91,7 @@ margin: 0;
 .about-preview {
     background:#cde0e1;
     padding: 15% 0 15% 0;
+    margin:0;
 }
 
 .feature-text{
@@ -99,22 +119,29 @@ margin: 0;
 
 }
 
-.about-cta .button{
+.about-cta .button {
     background:#238c98;
     margin: 0 auto;
-    display: block;
+    display: block;    
+}
+.about-cta .button:hover {
+    background:#ffc414;
+    color:#484848;
 }
 
 .services-cta .button{
-    background: #ffc414;
-
+    background: #333;
     margin: 0 auto;
     display: block;
 }
 .services-cta a.button{
-    color: #333;
+    color: white;
 }
 
+.services-cta .button:hover {
+        background:#ffc414;
+    color:#484848;
+}
 
 /*================ ABOUT PAGE - MOBILE ============ */
 .about-page {
@@ -127,14 +154,14 @@ margin: 0;
 .about-top {
     width:90%;
     margin: 0 auto; 
-    padding: 0 0 5% 0;
+    padding: 10% 0 15% 0;
 }
 .about-top h1,h4 {
     margin:0;
 }
 
 .about-main {
-    padding: 10% 0 10% 0;
+    padding: 15% 0 15% 0;
     background: #cde0e1;   
 }
 .about-main p{
@@ -155,7 +182,59 @@ margin: 0;
     margin: 0 auto;
 }
 
+
+
+.yoga {
+    background:#e8e8e8;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;
+}
+
+.yoga h4 {
+    width:90%;
+    margin: 0 auto;
+}
+
+.yoga p {
+    width:90%;
+    margin: 0 auto;
+
+}
+
+.cpt {
+    background:#a2a2a2;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;
+}
+
+.cpt h4 {
+    width:90%;
+    margin: 5%;
+
+}
+.cpt p {
+    width:90%;
+    
+}
+
+.school {
+    background:#3b3b3b;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;
+}
+
+.school h4{
+    width:90%;
+    margin: 0 auto;
+    color:white;
+}
+.school p {
+    width:90%;
+    color:white;
+    
+}
 .about-bottom{
+    margin: 10% 0 0 0;
     padding: 10% 0 10% 0;
     background: #cde0e1;   
 }
@@ -170,8 +249,133 @@ margin: 0;
 }
 
 .about-bottom-cta .button {
+       
+}
+.about-bottom-cta .button:hover {
+    background:#ffc414;
+    color:#484848;
+
+}
+
+/* ========== SERVICES PAGE - MOBILE ==============*/
+
+.services-intro {
+    background:#cde0e1;
+    margin:0;
+}
+.services-intro h3 {
+     width:90%;
+    margin: 0 auto; 
+    padding: 15% 0 15% 0;
+}
+
+.services {
+
+    padding: 0 0 15% 0;
+}
+
+.services h4,p {
+    width:90%;
+    margin: 0 auto;
+}
+
+.services h4 {
+    padding: 15% 0 0 0;
+}
+.group-personal {
+    background:#f2f2f2;
+    padding: 5% 0 5% 0;
+}
+.group {
+    width:90%;
+    background:#cde0e1;
+    padding: 3% 0 3% 0;
+    margin: 5%;
+}
+.group h4,p {
+    width:90%;
+    margin: 0 auto;  
+}
+.personal {
+    width:90%;
+    background:#238c98;
+    padding: 3% 0 3% 0;
+    margin: 5%;
+}
+.personal h4,p {
+    width:90%;
+    margin: 0 auto;
+}
+
+.personal h4 {
+    color:#dedede;
+}.personal p {
+    color:#dedede;
+}
+
+.services-bottom-cta {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-bottom-cta .button {
+    width:90%;
+    margin: 0 auto;
+}
+.services-bottom-cta .button:hover {
+    background:#ffc414;
+    color:#484848;
     
 }
+
+/* ==============  CONTACT PAGE - MOBILE ============*/
+
+#nf-form-title-1 h3{
+    display:none;
+}
+
+.nf-form-fields-required {
+    display:none;
+}
+
+#nf-field-1-wrap {
+    width:90%;
+    margin: 0 auto;
+    padding: 10% 0 0 0;
+}
+#nf-field-5-wrap {
+    width:90%;
+    margin: 0 auto;    
+}
+#nf-field-2-wrap {
+     width:90%;
+    margin: 0 auto;   
+}
+
+#nf-field-3-wrap {
+    width:90%;
+    margin: 0 auto;    
+}
+
+#nf-field-4:hover {
+    background:#ffc414;
+    color:#484848;
+
+    	   -webkit-transition: all 0.5s ease;	/* so it will ease back out */
+	   -moz-transition: all 0.5s ease;
+	   -o-transition: all 0.5s ease;
+	   transition: all 0.5s ease;
+}
+#nf-field-4 {
+    display: block;
+    margin: 0 auto;
+}
+
+.ninja-forms-req-symbol {
+    display:none;
+}
+/* ========== FOOTER - MOBILE ==============*/
+
 .site-footer {
     border-top:none;
 }
