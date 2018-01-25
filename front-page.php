@@ -26,7 +26,7 @@ get_header(); ?>
 	</div><!-- #primary -->
     <div class="about-preview">
         <div class="feature-text">
-            <h1> Here's where more stuff goes. This will be a quote about her and a fun philosophy on her POV on fitness followed by a CTA</h1>    
+            <h1> Here's where more stuff goes. This will be a quote about her and a fun philosophy on her POV on fitness followed by a CTA. </h1>    
         </div>
 
         <div class="home-ctas">

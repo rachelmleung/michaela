@@ -49,7 +49,7 @@ get_header(); ?>
                 <p><?php echo $about_main; ?></p>
             </div>
          <div class="experience">
-        
+             <h3><?php echo $experience; ?></h3>       
         </div>
             
         <div class="training-edu">
