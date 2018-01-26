@@ -191,10 +191,24 @@ margin: 0;
     margin: 0 auto;
 }
 
+.cpt {
+    background:#e8e8e8;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;
+}
 
+.cpt h4 {
+    width:90%;
+    margin: 0 0 0 5%;
+
+}
+.cpt p {
+    width:90%;
+    
+}
 
 .yoga {
-    background:#e8e8e8;
+    background:#a2a2a2;
     padding: 3% 0 3% 0;
     margin: 5% 0 5% 0;
 }
@@ -210,21 +224,7 @@ margin: 0;
 
 }
 
-.cpt {
-    background:#a2a2a2;
-    padding: 3% 0 3% 0;
-    margin: 5% 0 5% 0;
-}
 
-.cpt h4 {
-    width:90%;
-    margin: 5%;
-
-}
-.cpt p {
-    width:90%;
-    
-}
 
 .school {
     background:#3b3b3b;
@@ -392,6 +392,9 @@ margin: 0;
     color:#ddd;
 }
 
+.entry-title {
+    margin: 5% 0 5% 5%;    
+}
 
 .entry-title a:hover {
     color:#238c98;
@@ -405,6 +408,15 @@ margin: 0;
     border-bottom:none;
 }
 
+.post-entry {
+    border:none;
+}
+.read-more-link {
+    margin: 5% 0 0 5%;
+}
+.read-more-link a {
+    color:#238c98;
+}
 
 .entry-terms .comments .author span {
     display:none;
@@ -412,6 +424,48 @@ margin: 0;
 
 #comments {
     display:none;
+}
+
+#navigation {
+    border:none;
+}
+
+/* ============== blog sidebar  - MOBILE ============*/
+
+#sidebar h2 {
+    color:#238c98;
+}
+
+#sidebar {
+    border:none;
+}
+
+#sidebar .widget {
+    border:none;
+}
+#sidebar .widget_search input[type="submit"] {
+    background: #238c98;    
+}
+
+
+
+.read-more-link a:hover{ 
+    color:#333;    
+    	   -webkit-transition: all 0.5s ease;	/* so it will ease back out */
+	   -moz-transition: all 0.5s ease;
+	   -o-transition: all 0.5s ease;
+	   transition: all 0.5s ease;
+}
+
+#sidebar ul li a:hover   {
+    color:#238c98;
+    border-bottom: 1px solid #238c98;
+    
+
+    	   -webkit-transition: all 0.5s ease;	/* so it will ease back out */
+	   -moz-transition: all 0.5s ease;
+	   -o-transition: all 0.5s ease;
+	   transition: all 0.5s ease;
 }
 /* ========== FOOTER - MOBILE ==============*/
 
@@ -424,7 +478,7 @@ margin: 0;
 /* =========== TABLET ============== */
 
 @media (min-width: 767px){
-/* =========== HOME PAGE - MOBILE ============== */
+/* =========== HOME PAGE - TABLET ============== */
 
 .home-page h1 {
     color: #fff;
@@ -497,6 +551,242 @@ margin: 0;
         background:#ffc414;
     color:#484848;
 }
+/*================ ABOUT PAGE - TABLET ============ */
+.about-page {
+
+}
+.about-image {
+    
+}
+    
+.photo-hello {
+    display:flex;
+    justify-content: space-between;
+}
+    
+.about-image, figure img {
+    width:100%;
+    margin: 0;
+}
+
+.about-top {
+    margin:0;
+
+}
+.about-top h1,h4 {
+    margin:0 0 0 10%;
+    width: 90%;
+}
+
+.about-main {
+    padding: 10% 0 10% 0;
+    background: #cde0e1;  
+    
+}
+.about-main p{
+    width:70%;
+    margin: 0 auto;
+    line-height: 1.8em;
+}
+
+
+.experience {
+    width:90%;
+    margin: 0 auto;
+    
+}
+
+.training-edu {
+    width:90%;
+    margin: 0 auto;
+}
+
+ .training-edu h3 {
+        
+ }
+.cpt {
+    width:100%;
+    background:#e8e8e8;
+    padding: 3% 0 3% 0;
+    margin: 8% 0 4% 0;
+    text-align: center;
+}
+
+.cpt h4 {
+    width:90%;
+    margin:0 0 0 5%;
+
+}
+.cpt p {
+    width:90%;
+    
+}
+
+.combined-study {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
+.yoga {
+    width:48%;    
+    background:#a2a2a2;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;
+    text-align:center;
+}
+
+.yoga h4 {
+    width:90%;
+    margin: 0 auto;
+    padding: 3% 0 0 0;
+    
+}
+
+.yoga p {
+    width:90%;
+    margin: 0 auto;
+    padding: 0 0 5% 0;
+    
+}
+
+.school {
+    width:48%;
+    background:#3b3b3b;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;
+    text-align:center;
+}
+
+.school h4{
+    width:90%;
+    margin: 0 auto;
+    color:white;
+    padding: 3% 0 0 0;
+}
+.school p {
+    width:90%;
+    color:white;
+    padding: 0 0 5% 0;
+    
+}
+.about-bottom{
+    margin: 10% 0 0 0;
+    padding: 10% 0 10% 0;
+    background: #cde0e1;   
+}
+.about-bottom p {
+    width:90%;
+    margin: 0 auto;
+}
+.about-bottom-cta {
+    display:flex;
+    justify-content: space-around;
+    margin: 5% 0 0 0;
+}
+
+.about-bottom-cta .button {
+       
+}
+.about-bottom-cta .button:hover {
+    background:#ffc414;
+    color:#484848;
+
+}
+
+/* ========== SERVICES PAGE - TABLET ==============*/
+
+.services-intro {
+    background:#cde0e1;
+    margin:0;
+    padding: 15% 0 15% 0;
+    
+
+}
+.services-intro h3 {
+    width:80%;
+    background:none;
+    margin: 0 auto; 
+    padding:0 10% 0 10%;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.services {
+    padding: 0 0 8% 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services h4,p {
+    width:90%;
+    margin: 0 auto;
+}
+
+.services h4 {
+    padding: 15% 0 0 0;
+}
+    
+.service-1,.service-2,.service-3,.service-4 {
+    width:46%;       
+    }
+    
+.services-bottom {
+    background:#f2f2f2;
+    padding: 5% 0 10% 0;
+    }
+.group-personal {
+    width:90%;
+    margin:0 auto;
+
+    display:flex;
+    justify-content: space-between;
+}
+.group {
+    width:48%;
+    background:#cde0e1;
+    padding: 3% 0 3% 0;
+    margin: 0;
+}
+.group h4,p {
+    width:90%;
+    margin: 0 auto;  
+}
+.personal {
+    width:48%;
+    background:#238c98;
+    padding: 3% 0 3% 0;
+    margin: 0;
+}
+.personal h4,p {
+    width:90%;
+    margin: 0 auto;
+}
+
+.personal h4 {
+    color:#dedede;
+}.personal p {
+    color:#dedede;
+}
+
+.services-bottom-cta {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-bottom-cta .button {
+    width:70%;
+    margin: 0 auto;
+}
+.services-bottom-cta .button:hover {
+    background:#ffc414;
+    color:#484848;
+    
+}
+
+/* ==============  CONTACT PAGE - TABLET ============*/
+
 
 } /* TABLET styles */
 

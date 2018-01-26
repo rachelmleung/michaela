@@ -82,6 +82,7 @@ get_header(); ?>
                         <p><?php echo $service_4_info; ?></p>
                     </div>
                 </div> <!-- end services -->
+        <div class="services-bottom">
             <div class="group-personal">
                 <div class="group">
                     <h4><?php echo $group; ?></h4>
@@ -92,11 +93,11 @@ get_header(); ?>
                     <h4><?php echo $personal; ?></h4>
                     <p><?php echo $personal_info; ?></p>
                 </div>
-                
+             </div>               
                 <div class="services-bottom-cta">
                     <a class="button" href="<?php echo site_url('/contact/') ?>">Book an Appointment! </a>
                 </div>
-            </div>
+                </div>
             </div> <!-- end services body -->
         </div>
         </div> <!-- close services page -->

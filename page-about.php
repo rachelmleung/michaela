@@ -35,17 +35,18 @@ get_header(); ?>
             ?>
         			<?php endwhile; // end of the loop. ?>
         <div class="about-page"> 
-           <div class="about_image">
-                <figure>
-                <?php echo wp_get_attachment_image($about_image, $size); ?>
-               </figure>
-            </div>
-            
-          <div class="about-top">
-            <h1><?php echo $about_name; ?></h1>
-              <h4><?php echo $about_intro; ?></h4>     
-            </div>
-            
+            <div class="photo-hello">
+               <div class="about_image">
+                    <figure>
+                    <?php echo wp_get_attachment_image($about_image, $size); ?>
+                   </figure>
+                </div>
+
+              <div class="about-top">
+                <h1><?php echo $about_name; ?></h1>
+                  <h4><?php echo $about_intro; ?></h4>     
+                </div>
+           </div> 
          <div class="about-main">
                 <p><?php echo $about_main; ?></p>
             </div>
@@ -55,22 +56,23 @@ get_header(); ?>
             
         <div class="training-edu">
             <h3><?php echo $edu; ?></h3>
-
-            <div class="yoga">
-                <h4><?php echo $hours; ?></h4>
-                <p><?php echo $studio; ?></p>
-            </div>
             
             <div class="cpt">
                 <h4><?php echo $study; ?></h4>
                 <p><?php echo $training; ?></p>
             </div>
             
+        <div class="combined-study">   
+            <div class="yoga">
+                <h4><?php echo $hours; ?></h4>
+                <p><?php echo $studio; ?></p>
+            </div>
+            
             <div class="school">
                 <h4><?php echo $degree; ?></h4>
                 <p><?php echo $school; ?></p>
             </div>
-            
+          </div>  
   
         </div> <!-- end training edu -->
             
