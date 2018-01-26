@@ -419,8 +419,90 @@ margin: 0;
     border-top:none;
 }
 
-/* =========== DESKTOP ============== */
+/* =========== TABLET ============== */
+/* =========== TABLET ============== */
+/* =========== TABLET ============== */
 
 @media (min-width: 767px){
+/* =========== HOME PAGE - MOBILE ============== */
+
+.home-page h1 {
+    color: #fff;
+} 
+.home-page h4 {
+    color: #333;
+    width:60%;
+    margin: 0 auto;
+} 
+
+.about-preview {
+    background:#cde0e1;
+    padding: 15% 0 15% 0;
+    margin:0;
+
+}
+    
+    
+
+.feature-text{
+    display:block;
+    margin:0 auto;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    width:80%;
+    background:none;
+}
+.feature-text h1 {
+    font-size: 1em;
+    padding: 0 10% 0 10%;
+    margin: 0 0 2% 0;
+    color:#333;
+    width:100%;   
+}
+
+.home-ctas {
+    margin: 0 auto;
+    padding: 5% 0 0 0;
+    display:flex;
+    width:76%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.home-ctas .button {
+    width:100%;
+
+}
+
+.about-cta .button {
+    background:#238c98;
+    margin: 0 auto;
+    display: block;    
+}
+.about-cta .button:hover {
+    background:#ffc414;
+    color:#484848;
+}
+
+.services-cta .button{
+    background: #333;
+    margin: 0 auto;
+    display: block;
+}
+.services-cta a.button{
+    color: white;
+}
+
+.services-cta .button:hover {
+        background:#ffc414;
+    color:#484848;
+}
+
+} /* TABLET styles */
+
+
+/* =========== DESKTOP ============== */
+
+@media (min-width: 900px){
 
 } /* desktop styles */
