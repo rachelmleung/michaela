@@ -23,6 +23,7 @@
 /*this resets width on all pages*/
 #primary{
     width:100%;
+    margin:0;
     
 }
 
@@ -35,19 +36,26 @@
 	   transition: all 0.5s ease;
 }
 
-.a:hover {
+a:hover {
+    
+    border-bottom:none;
     	   -webkit-transition: all 0.5s ease;	/* so it will ease back out */
 	   -moz-transition: all 0.5s ease;
 	   -o-transition: all 0.5s ease;
 	   transition: all 0.5s ease;
 } 
-}
+
 
 /* =========== HOME PAGE - MOBILE ============== */
 .hero-content {
 margin: 0;
 }
 
+.home-page .hero-content {
+    padding: 0;
+    margin: 0;
+
+}
 .home-page {
     position: relative;
     background: #cde0e1;
@@ -71,6 +79,7 @@ margin: 0;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+
 }
 
 .home-page h1 {
@@ -372,6 +381,36 @@ margin: 0;
 }
 
 .ninja-forms-req-symbol {
+    display:none;
+}
+
+
+
+/* ========== BLOG - MOBILE ==============*/
+
+.entry-time {
+    color:#ddd;
+}
+
+
+.entry-title a:hover {
+    color:#238c98;
+}
+.entry-footer .entry-terms a {
+     color:#dedede;   
+}
+
+.entry-footer .entry-terms a:hover {
+     color:#238c98; 
+    border-bottom:none;
+}
+
+
+.entry-terms .comments .author span {
+    display:none;
+}
+
+#comments {
     display:none;
 }
 /* ========== FOOTER - MOBILE ==============*/
