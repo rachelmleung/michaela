@@ -23,6 +23,14 @@ get_header(); ?>
                 $about_intro = get_field('about_intro');
                 $about_main = get_field('about_main');
                 $experience = get_field('experience');
+                $experience_1 = get_field('experience_1');
+                $experience_1_date = get_field('experience_1_date');
+                $experience_2 = get_field('experience_2');
+                $experience_2_date = get_field('experience_2_date');
+                $experience_3 = get_field('experience_3');
+                $experience_3_date = get_field('experience_3_date');
+                $experience_4 = get_field('experience_4');
+                $experience_4_date = get_field('experience_4_date');
                 $edu = get_field('edu');
                 $school = get_field('school');
                 $degree = get_field('degree');
@@ -51,7 +59,30 @@ get_header(); ?>
                 <p><?php echo $about_main; ?></p>
             </div>
          <div class="experience">
-             <h3><?php echo $experience; ?></h3>       
+            
+             <h3><?php echo $experience; ?></h3>
+             
+            <div class="experiences">
+             <div class="experience-1">
+                <h4><?php echo $experience_1; ?></h4>
+                <p><?php echo $experience_1_date; ?></p>
+             </div>
+             
+             <div class="experience-2">
+                <h4><?php echo $experience_2; ?></h4>
+                <p><?php echo $experience_2_date; ?></p>
+             </div>
+             
+             <div class="experience-3">
+                <h4><?php echo $experience_3; ?></h4>
+                <p><?php echo $experience_3_date; ?></p>
+             </div>
+             
+             <div class="experience-4">
+                <h4><?php echo $experience_4; ?></h4>
+                <p><?php echo $experience_4_date; ?></p>
+             </div>
+            </div> <!-- end experiences -->
         </div>
             
         <div class="training-edu">

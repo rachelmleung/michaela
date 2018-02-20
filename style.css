@@ -186,6 +186,33 @@ margin: 0;
     
 }
 
+.experience h4 {
+    width:90%;
+    margin: 0 0 0 5%;    
+}
+
+
+.experience-1 {
+    background:#e8e8e8;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;    
+}
+.experience-2 {
+    background:#e8e8e8;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;    
+}
+.experience-3 {
+    background:#e8e8e8;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;    
+}
+.experience-4 {
+    background:#e8e8e8;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;    
+}
+
 .training-edu {
     width:90%;
     margin: 0 auto;
@@ -591,10 +618,80 @@ margin: 0;
 
 
 .experience {
-    width:90%;
-    margin: 0 auto;
-    
+    width:90%; 
+
 }
+    
+.experiences {
+    margin: 5% 0 0 0;   
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+.experience h3 {
+        width:100%;
+    padding: 5% 0 0 0;
+    }
+.experience h4 {
+    width:90%;
+    margin: 0 0 0 5%;    
+}
+
+.experience-1 h4 {
+      padding: 3% 0 0 0;  
+    }
+.experience-1 p {
+      padding: 0 0 3% 0;  
+    }
+.experience-2 h4 {
+      padding: 3% 0 0 0;  
+    }
+.experience-2 p {
+      padding: 0 0 3% 0;  
+    }
+.experience-3 h4 {
+      padding: 3% 0 0 0;  
+    }
+.experience-3 p {
+      padding: 0 0 3% 0;  
+    }
+.experience-4 h4 {
+      padding: 3% 0 0 0;  
+    }
+.experience-4 p {
+      padding: 0 0 3% 0;  
+    }
+    
+.experience-1 {
+    background:#e8e8e8;
+    margin: 5% 0 5% 0;
+    width:48%;
+    text-align: center;
+}
+
+.experience-2 {
+    background:#e8e8e8;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;
+    width:48%;
+    text-align: center;
+}
+.experience-3 {
+    background:#e8e8e8;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;
+    width:48%;
+    text-align: center;
+}
+.experience-4 {
+    background:#e8e8e8;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;
+    width:48%;
+    text-align: center;
+}
+
 
 .training-edu {
     width:90%;
@@ -602,7 +699,7 @@ margin: 0;
 }
 
  .training-edu h3 {
-        
+    padding: 5% 0 0 0;
  }
 .cpt {
     width:100%;
@@ -615,6 +712,7 @@ margin: 0;
 .cpt h4 {
     width:90%;
     margin:0 0 0 5%;
+    padding: 5% 0 0 0;
 
 }
 .cpt p {
@@ -686,7 +784,8 @@ margin: 0;
 }
 
 .about-bottom-cta .button {
-       
+    width:50%;
+    margin: 0 auto;       
 }
 .about-bottom-cta .button:hover {
     background:#ffc414;
@@ -753,6 +852,21 @@ margin: 0;
     width:90%;
     margin: 0 auto;  
 }
+    
+.group h4 {
+     padding: 3% 0 0 0;   
+    }
+.group p {
+     padding: 0 0 3% 0;   
+    }
+    
+.personal h4 {
+     padding: 3% 0 0 0;   
+    }
+.personal p {
+     padding: 0 0 3% 0;   
+    }
+    
 .personal {
     width:48%;
     background:#238c98;
@@ -776,7 +890,7 @@ margin: 0;
 }
 
 .services-bottom-cta .button {
-    width:70%;
+    width:50%;
     margin: 0 auto;
 }
 .services-bottom-cta .button:hover {
@@ -786,13 +900,351 @@ margin: 0;
 }
 
 /* ==============  CONTACT PAGE - TABLET ============*/
-
+.nf-form-content  {
+        width:70%;
+        margin: 0 auto;
+    }
 
 } /* TABLET styles */
 
 
-/* =========== DESKTOP ============== */
+/* =========== DESKTOP DESKTOP DESKTOP ============== */
+/* =========== DESKTOP DESKTOP DESKTOP ============== */
+/* =========== DESKTOP DESKTOP DESKTOP ============== */
 
-@media (min-width: 900px){
+@media (min-width: 948px){
+    #primary  {
+        width:100%;
+        margin: 0 auto;
+        
+    }
+/* =========== HOME PAGE - DESKTOP ============== */
 
+.home-page h1 {
+    color: #fff;
+} 
+.home-page h4 {
+    color: #333;
+    width:50%;
+    margin: 0 auto;
+    font-size: 1.2em;
+} 
+
+.about-preview {
+    background:#cde0e1;
+    padding: 15% 0 15% 0;
+    margin:0;
+    width:100%;
+
+}
+    
+    
+
+.feature-text{
+    display:block;
+    margin:0 auto;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    width:50%;
+    background:none;
+}
+.feature-text h1 {
+    font-size: 1.2em;
+    padding: 0 10% 0 10%;
+    margin: 0 0 2% 0;
+    color:#333;
+    width:100%;   
+}
+
+.home-ctas {
+    margin: 0 auto;
+    padding: 5% 0 0 0;
+    display:flex;
+    width:50%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.home-ctas .button {
+    width:100%;
+
+}
+
+.about-cta .button {
+    background:#238c98;
+    margin: 0 auto;
+    display: block;    
+}
+.about-cta .button:hover {
+    background:#ffc414;
+    color:#484848;
+}
+
+.services-cta .button{
+    background: #333;
+    margin: 0 auto;
+    display: block;
+}
+.services-cta a.button{
+    color: white;
+}
+
+.services-cta .button:hover {
+        background:#ffc414;
+    color:#484848;
+}
+    
+/*================ ABOUT PAGE - DESKTOP ============ */
+.about-page {
+
+}
+    
+.about-image {
+    
+}
+    
+.photo-hello {
+    display:flex;
+    justify-content: space-between;
+}
+    
+.about-image, figure img {
+    width:100%;
+    margin: 0;
+}
+
+.about-top {
+    margin:0;
+
+}
+.about-top h1,h4 {
+    margin:0 10% 0 10%;
+    width: 80%;
+}
+
+    .about-top h1 {
+        font-size:1.8em;
+    }
+.about-main {
+    padding: 10% 0 10% 0;
+    background: #cde0e1;
+    width:100%;
+}
+    
+.about-main p {
+    width:70%;
+    margin: 0 auto;
+    line-height: 1.8em;
+}
+
+
+.experience {
+    width:90%;
+    margin: 0 auto;
+    
+}
+
+.training-edu {
+    width:90%;
+    margin: 0 auto;
+}
+
+ .training-edu h3 {
+        
+ }
+.cpt {
+    width:100%;
+    background:#e8e8e8;
+    padding: 3% 0 3% 0;
+    margin: 8% 0 4% 0;
+    text-align: center;
+}
+
+.cpt h4 {
+    width:90%;
+
+}
+.cpt p {
+    width:90%;
+    
+}
+
+.combined-study {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
+.yoga {
+    width:48%;    
+    background:#a2a2a2;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;
+    text-align:center;
+}
+
+.yoga h4 {
+    width:90%;
+    margin: 0 auto;
+    padding: 3% 0 0 0;
+    
+}
+
+.yoga p {
+    width:90%;
+    margin: 0 auto;
+    padding: 0 0 5% 0;
+    
+}
+
+.school {
+    width:48%;
+    background:#3b3b3b;
+    padding: 3% 0 3% 0;
+    margin: 5% 0 5% 0;
+    text-align:center;
+}
+
+.school h4{
+    width:90%;
+    margin: 0 auto;
+    color:white;
+    padding: 3% 0 0 0;
+}
+.school p {
+    width:90%;
+    color:white;
+    padding: 0 0 5% 0;
+    
+}
+.about-bottom{
+    margin: 10% 0 0 0;
+    padding: 10% 0 10% 0;
+    background: #cde0e1;   
+}
+.about-bottom p {
+    width:90%;
+    margin: 0 auto;
+}
+.about-bottom-cta {
+    display:flex;
+    justify-content: space-around;
+    margin: 5% 0 0 0;
+}
+
+.about-bottom-cta .button {
+    width:50%;
+    margin: 0 auto;       
+}
+.about-bottom-cta .button:hover {
+    background:#ffc414;
+    color:#484848;
+
+}
+/* ========== SERVICES PAGE - DESKTOP ==============*/
+
+.services-intro {
+    background:#cde0e1;
+    margin:0;
+    padding: 15% 0 15% 0;
+    
+
+}
+.services-intro h3 {
+    width:80%;
+    background:none;
+    margin: 0 auto; 
+    padding:0 10% 0 10%;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.services {
+    padding: 0 0 8% 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services h4,p {
+    width:90%;
+    margin: 0 auto;
+}
+
+.services h4 {
+    padding: 15% 0 0 0;
+}
+    
+.service-1,.service-2,.service-3,.service-4 {
+    width:46%;       
+    }
+    
+.services-bottom {
+    background:#f2f2f2;
+    padding: 5% 0 10% 0;
+    }
+.group-personal {
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+.group {
+    width:48%;
+    background:#cde0e1;
+    padding: 3% 0 3% 0;
+    margin: 0;
+}
+.group h4,p {
+    width:90%;
+    margin: 0 auto;
+}
+    
+.group h4 {
+        padding: 5% 0 0 0;
+    }
+.group p {
+        padding: 0 0 5% 0;
+    }
+    
+.personal {
+    width:48%;
+    background:#238c98;
+    padding: 3% 0 3% 0;
+    margin: 0;
+}
+.personal h4,p {
+    width:90%;
+    margin: 0 auto;
+}
+
+
+.personal h4 {
+    color:#dedede;
+        padding: 5% 0 0 0;
+}.personal p {
+    color:#dedede;
+        padding: 0 0 5% 0;
+}
+
+.services-bottom-cta {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-bottom-cta .button {
+    width:50%;
+    margin: 0 auto;
+}
+.services-bottom-cta .button:hover {
+    background:#ffc414;
+    color:#484848;
+    
+}
+
+/* ==============  CONTACT PAGE - DESKTOP ============*/
+.nf-form-content  {
+        width:70%;
+        margin: 0 auto;
+    }    
 } /* desktop styles */
