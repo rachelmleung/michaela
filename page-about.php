@@ -21,7 +21,9 @@ get_header(); ?>
                 $about_image = get_field('about_image');
                 $about_name = get_field('about_name');
                 $about_intro = get_field('about_intro');
-                $about_main = get_field('about_main');
+                $about_main_1 = get_field('about_main_1');
+                $about_main_2 = get_field('about_main_2');
+                $about_main_3 = get_field('about_main_3');
                 $experience = get_field('experience');
                 $experience_1 = get_field('experience_1');
                 $experience_1_date = get_field('experience_1_date');
@@ -56,8 +58,13 @@ get_header(); ?>
                 </div>
            </div> 
          <div class="about-main">
-                <p><?php echo $about_main; ?></p>
+             
+                <p><?php echo $about_main_1; ?></p><br>
+                <p><?php echo $about_main_2; ?></p><br>
+                <p><?php echo $about_main_3; ?></p>
             </div>
+   
+            
          <div class="experience">
             
              <h3><?php echo $experience; ?></h3>

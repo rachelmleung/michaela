@@ -45,8 +45,27 @@ a:hover {
 	   transition: all 0.5s ease;
 } 
 
+p {
+    font-size:.9em;
+    
+}
 
 /* =========== HOME PAGE - MOBILE ============== */
+/*.home-bg-image {
+    background-image: url('');
+    opacity: .7;
+    background-size: cover;
+    background-position: top;
+    padding: 15% 0 25% 0;
+    margin: 0;
+}
+*/
+
+#masthead {
+    display:none;
+    
+}
+
 .hero-content {
 margin: 0;
 }
@@ -70,8 +89,8 @@ margin: 0;
     width: 100%;
     height: 100%;
     z-index: 1;
-    opacity: 0.4;
-    background-image: url('https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAvYAAAAJGZhZGRmNDdlLWMwMDUtNDk0NS1iMTNmLWYxZGI4Mjg1YmI0MA.jpg');
+    opacity: 0.8;
+    background-image: url('http://i65.tinypic.com/w7irnr.jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -87,14 +106,16 @@ margin: 0;
     z-index: 2;
     position: relative;
     color: #fff;
+    padding:0;
 } 
 .home-page h4 {
     text-align: center;
     z-index: 2;
     position: relative;
-    color: #333;
+    color: #fff;
     width:92%;
     margin: 0 auto;
+    padding: 0 0 15% 0;
 } 
 
 .about-preview {
@@ -103,9 +124,11 @@ margin: 0;
     margin:0;
 }
 
+
 .feature-text{
     display:flex;
     justify-content: space-around;
+
 }
 .feature-text h1 {
     font-size: 1.2em;
@@ -120,6 +143,8 @@ margin: 0;
     padding: 15% 0 15% 0;
     display:flex;
     flex-direction: column;
+    justify-content: space-around;
+
 
 }
 
@@ -131,17 +156,24 @@ margin: 0;
 .about-cta .button {
     background:#238c98;
     margin: 0 auto;
-    display: block;    
+    display: block;
+    
+    
 }
 .about-cta .button:hover {
     background:#ffc414;
     color:#484848;
 }
 
+.services-cta {
+    margin: 5% 0 0 0;
+}
 .services-cta .button{
     background: #333;
     margin: 0 auto;
     display: block;
+    
+    
 }
 .services-cta a.button{
     color: white;
@@ -156,6 +188,8 @@ margin: 0;
 .about-page {
 
 }
+
+
 .about-image {
     
 }
@@ -284,8 +318,7 @@ margin: 0;
     margin: 5% 0 0 0;
 }
 
-.about-bottom-cta .button {
-       
+.about-bottom-cta .button {         
 }
 .about-bottom-cta .button:hover {
     background:#ffc414;
@@ -364,6 +397,12 @@ margin: 0;
     
 }
 
+
+/* =================== CALENDAR & EVENTS - MOBILE ==================*/
+#tribe-events-content-wrapper {
+    width: 96%;
+    margin: 0 2% 0 2%;
+}
 /* ==============  CONTACT PAGE - MOBILE ============*/
 
 #nf-form-title-1 h3{
@@ -494,6 +533,12 @@ margin: 0;
 	   -o-transition: all 0.5s ease;
 	   transition: all 0.5s ease;
 }
+
+.textwidget.custom-html-widgetul .local-activities a {
+    text-decoration: none;
+    font-weight: normal;
+    color:red;
+}
 /* ========== FOOTER - MOBILE ==============*/
 
 .site-footer {
@@ -506,7 +551,9 @@ margin: 0;
 
 @media (min-width: 767px){
 /* =========== HOME PAGE - TABLET ============== */
-
+#masthead {
+        display: block;
+    }
 .home-page h1 {
     color: #fff;
 } 
@@ -543,11 +590,12 @@ margin: 0;
 
 .home-ctas {
     margin: 0 auto;
-    padding: 5% 0 0 0;
+    padding: 0;
     display:flex;
     width:76%;
     justify-content: space-around;
     flex-direction: row;
+    align-items: baseline;
 }
 
 .home-ctas .button {
@@ -575,7 +623,7 @@ margin: 0;
 }
 
 .services-cta .button:hover {
-        background:#ffc414;
+    background:#ffc414;
     color:#484848;
 }
 /*================ ABOUT PAGE - TABLET ============ */
@@ -613,7 +661,7 @@ margin: 0;
 .about-main p{
     width:70%;
     margin: 0 auto;
-    line-height: 1.8em;
+
 }
 
 
@@ -899,6 +947,12 @@ margin: 0;
     
 }
 
+/* =================== CALENDAR & EVENTS - TABLET ==================*/
+#tribe-events-content-wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* ==============  CONTACT PAGE - TABLET ============*/
 .nf-form-content  {
         width:70%;
@@ -918,6 +972,7 @@ margin: 0;
         margin: 0 auto;
         
     }
+    
 /* =========== HOME PAGE - DESKTOP ============== */
 
 .home-page h1 {
@@ -1034,7 +1089,7 @@ margin: 0;
 .about-main p {
     width:70%;
     margin: 0 auto;
-    line-height: 1.8em;
+
 }
 
 
@@ -1044,7 +1099,49 @@ margin: 0;
     
 }
 
-.training-edu {
+    
+.experiences {
+    margin: 5% 0 0 0;   
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+.experience h3 {
+        width:100%;
+    padding: 5% 0 0 0;
+    }
+.experience h4 {
+    width:90%;
+    margin: 0 0 0 5%;    
+}
+
+.experience-1 h4 {
+      padding: 3% 0 0 0;  
+    }
+.experience-1 p {
+      padding: 0 0 3% 0;  
+    }
+.experience-2 h4 {
+      padding: 3% 0 0 0;  
+    }
+.experience-2 p {
+      padding: 0 0 3% 0;  
+    }
+.experience-3 h4 {
+      padding: 3% 0 0 0;  
+    }
+.experience-3 p {
+      padding: 0 0 3% 0;  
+    }
+.experience-4 h4 {
+      padding: 3% 0 0 0;  
+    }
+.experience-4 p {
+      padding: 0 0 3% 0;  
+    }
+ 
+    .training-edu {
     width:90%;
     margin: 0 auto;
 }
@@ -1056,17 +1153,18 @@ margin: 0;
     width:100%;
     background:#e8e8e8;
     padding: 3% 0 3% 0;
-    margin: 8% 0 4% 0;
+    margin: 4% 0 4% 0;
     text-align: center;
 }
 
 .cpt h4 {
     width:90%;
+    padding: 0;
 
 }
 .cpt p {
     width:90%;
-    
+
 }
 
 .combined-study {
@@ -1240,6 +1338,12 @@ margin: 0;
     background:#ffc414;
     color:#484848;
     
+}
+    
+/* =================== CALENDAR & EVENTS - DESKTOP ==================*/
+#tribe-events-content-wrapper {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* ==============  CONTACT PAGE - DESKTOP ============*/

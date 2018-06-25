@@ -98,6 +98,8 @@ get_header(); ?>
                     <a class="button" href="<?php echo site_url('/contact/') ?>">Book an Appointment! </a>
                 </div>
                 </div>
+                <?php echo do_shortcode("[ninja_form id=1]"); ?>
+                
             </div> <!-- end services body -->
         </div>
         </div> <!-- close services page -->
